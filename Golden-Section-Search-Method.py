@@ -1,3 +1,4 @@
+# The Below Code Calculates X  Using The Golden-Section Search Method 
 import math as m
 Xlower = 0.5
 Xupper = 1.5
@@ -51,5 +52,9 @@ for i in range (0, 7):
         
     else:
         Xupper = X1
+        
+        
+        
+        
         
 
