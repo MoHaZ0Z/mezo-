@@ -1,19 +1,12 @@
 # The Below Code Calculates X  Using The Golden-Section Search Method 
+
 import math as m
 Xlower = 0.5
 Xupper = 1.5
 Val = "max"
 
 def F(x):
-    
     result = 2 * x * m.cos(2 * x) - 3 * m.cos(5*x) + 2 * x  #Example Equation
-    
-    #  m.sin(0.2)
-    #  m.cos(0.2)
-    #  m.tan(0.2)
-    #  m.pow(1, 2)   Square
-    #  m.pow(1, 0.5)  Redical
-    
     return result
 
 def D(Xlower, Xupper):
