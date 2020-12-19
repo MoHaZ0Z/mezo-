@@ -30,7 +30,7 @@ for i in range (0, 7):
             Xoptimal = X1
     
     if Val == "min" :
-        if (F(X1) > F(X2)):
+        if (F(X1) < F(X2)):
             Xoptimal = X1
         else :
             Xoptimal = X2
